@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "wouter";
+import '../assets/css/root.css'
 
 // Criação de interfaces de rotas para Home...
 interface AppPagesProps {
@@ -15,10 +17,10 @@ const AppComponentPages: React.FC = () => {
   ];
 
   return (
-    <div>
+    <div className="portal-container">
       {appPages.map((appPage) => (
         <a key={appPage.title} href={appPage.href || "#"}>
-          <span>{appPage.icon}</span>
+          <span className="portal-icon">{appPage.icon}</span>
           <span>{appPage.title}</span>
         </a>
       ))}
@@ -28,7 +30,7 @@ const AppComponentPages: React.FC = () => {
 
 // Componente Inicial
 const AppComponentMain: React.FC = () => (
-  <div>
+  <div className="main-container">
     <h2>Portal Colaborador TI</h2>
     <p>
       Bem-vindo ao portal de suporte! <br /> Este espaço é dedicado aos técnicos
@@ -41,14 +43,24 @@ const AppComponentMain: React.FC = () => (
   </div>
 );
 
+// Footer
+
+const Footer: React.FC = () => (
+  <footer className="footer">
+    <p>© 2024 Desenvolvido pelo Suporte TI - joao.saraujo</p>
+  </footer>
+);
+
 const AppHome = () => {
   return (
-    <div>
-      <p>Navigation</p>
+    <div className="home-container">
+      <Link href="/">
+        <img src="/src/assets/img/logoescuragsc.png" alt="Logo" width={150} />
+      </Link>
       <main>
         <AppComponentMain />
       </main>
-      <p>Footer</p>
+      <Footer />
     </div>
   );
 };
