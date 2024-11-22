@@ -10,11 +10,11 @@ Para instalar e rodar o projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório:
 ```bash
-    git clone https://github.com/seu-usuario/seu-projeto.git
+    [git clone https://github.com/seu-usuario/seu-projeto.git](https://github.com/jotapdevbr/portal-frontapp.git)
 ```
 2. Navegue até o diretório do projeto:
 ```bash
-    cd seu-projeto
+    cd ./pasta/protal-frontapp
 ```
 3. Instale as dependências:
 ```bash
