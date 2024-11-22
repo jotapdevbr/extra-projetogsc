@@ -2,9 +2,9 @@
 Este projeto foi desenvolvido com o objetivo de ajudar o técnico nas atividades dentro da empresa, armazenamento links, downloads e manuais dentro do aplicativo web, e podendo ser acessado e instalado em qualquer máquina dentro da rede de computadores da empresa.
 
 ## 🛠️ Tecnologias Utilizadas
-# Typescript
-# React
-# Vite
+### Typescript
+### React
+### Vite
 ## 📦 Instalação
 Para instalar e rodar o projeto localmente, siga os passos abaixo:
 
