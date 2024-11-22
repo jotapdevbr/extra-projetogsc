@@ -11,9 +11,11 @@ interface AppPagesProps {
 const AppComponentPages: React.FC = () => {
   const appPages: AppPagesProps[] = [
     { title: "Portal Links", icon: "🌐", href: "/links" },
-    { title: "Portal Downloads", icon: "📂", href: "/programas" },
-    { title: "Manuais e Recursos", icon: "📚", href: "/manuals" },
-    { title: "breve", icon: "🛠️" },
+    { title: "Portal Downloads", icon: "📂", href: "/downloads" },
+    { title: "Manuais e Recursos", icon: "📚", href: "/manuais" },
+    { title: "...", icon: "🔒" },
+    { title: "...", icon: "🔒" },
+    { title: "...", icon: "🔒" },
   ];
 
   return (
@@ -55,7 +57,7 @@ const AppHome = () => {
   return (
     <div className="home-container">
       <Link href="/">
-        <img src="/src/assets/img/logoescuragsc.png" alt="Logo" width={150} />
+        <img src="/src/assets/img/logobrancagsc.png" alt="Logo" width={150} />
       </Link>
       <main>
         <AppComponentMain />

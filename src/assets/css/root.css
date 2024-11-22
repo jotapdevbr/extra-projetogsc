@@ -7,6 +7,10 @@
   text-align: center;
 }
 .main-container h2 {
+  background: #10305c;
+  opacity: 0.8;
+  border-radius: 1rem;
+  color: white;
   font-size: 2.45rem;
   font-weight: bold;
   margin-bottom: 1rem;
@@ -20,23 +24,26 @@
   font-size: 1.25rem;
   margin-bottom: 1rem;
 }
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 /* AppComponentPages */
 .portal-container {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
-}
-@media (min-width: 768px) {
-  .portal-container {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
+  text-align: center;
+  justify-content: center;
 }
 .portal-container a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+  padding: 3rem;
   background-color: #f0f0f0;
   border-radius: 1rem;
   transition: 300ms;
@@ -48,12 +55,31 @@
 .portal-icon {
   font-size: 2.75rem;
 }
+@media (max-width: 1090px) {
+  .portal-container {
+    grid-template-columns: 1fr;
+
+  }
+  .portal-container a {
+    padding: 2rem;
+  
+  }
+
+}
 
 /* Footer */
 .footer {
   text-align: center;
-  padding: 1rem;
-  opacity: 70%;
+  padding: .2rem;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #f0f0f0;
+  z-index: 10;
+  background: #141414;
 }
 
 /* AppHome */

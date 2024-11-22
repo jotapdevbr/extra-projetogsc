@@ -3,6 +3,16 @@
 :root {
     background: #E4E4E4;
     font-family: 'Fira Sans', sans-serif;
+    background: url(./assets/img/capafundo.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 a {
