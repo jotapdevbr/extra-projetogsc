@@ -1,50 +1,48 @@
-# React + TypeScript + Vite
+## 📘 Projeto Portal Web TI
+Este projeto foi desenvolvido com o objetivo de ajudar o técnico nas atividades dentro da empresa, armazenamento links, downloads e manuais dentro do aplicativo web, e podendo ser acessado e instalado em qualquer máquina dentro da rede de computadores da empresa.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠️ Tecnologias Utilizadas
+### Typescript
+### React
+### Vite
+## 📦 Instalação
+Para instalar e rodar o projeto localmente, siga os passos abaixo:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. Clone o repositório:
+```bash
+    [git clone https://github.com/seu-usuario/seu-projeto.git](https://github.com/jotapdevbr/portal-frontapp.git)
 ```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. Navegue até o diretório do projeto:
+```bash
+    cd ./pasta/protal-frontapp
 ```
+3. Instale as dependências:
+```bash
+    npm install
+```
+4. Execute o projeto:
+bash
+```bash
+    npm run dev
+```
+## 📄 Como Contribuir
+Se você deseja contribuir com o projeto, siga os passos abaixo:
+
+1. Faça um fork do projeto.
+2. Crie uma nova branch:
+```bash
+    git checkout -b minha-nova-feature
+```
+3. Faça suas alterações e commit:
+```bash
+    git commit -m 'Adiciona nova feature'
+```
+4. Envie suas alterações para o repositório remoto:
+```bash
+    git push origin minha-nova-feature
+```
+5. Abra um Pull Request.
+   
+## 📞 Contato
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
+### Email: jotap.abc@gmail.com
