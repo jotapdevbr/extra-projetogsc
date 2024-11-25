@@ -10,7 +10,7 @@ Para instalar e rodar o projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/jotapdevbr/portal-frontapp.git)
+git clone https://github.com/jotapdevbr/portal-frontapp.git
 ```
 2. Navegue até o diretório do projeto:
 ```bash
